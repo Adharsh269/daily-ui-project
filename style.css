@@ -1,0 +1,240 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.fr 2fr;
+}
+.first-frame{
+    margin-left: 50px;
+    padding-top: 50px;
+    grid-column: span 2;
+}
+.first-frame> h1{
+    font-weight: bold;
+    font-family: sans-serif;
+    color: blue;
+}
+.pic{
+    margin-left: 50px;
+    margin-top: 50px;
+    grid-column: 1 / 2;
+}
+.captions{
+    display: block;
+    position: relative;
+    gap: 10px;
+    flex-direction: column;
+    padding-left: 50px;
+}
+.captions> h1,h2{
+    font-size: 4rem;
+    color: #1864FF;
+    padding-left: 10px;
+    text-align: center;
+    font-weight: 800;
+    font-family: sans-serif;
+    font-size: 4rem;
+}
+.cap{
+    color: #FEA9A4;
+}
+.captions .cp{
+    color: #1864FF;
+    padding-top: 30px;
+    text-align: center;
+}
+p> span{
+    color: #709EFF;
+}
+.btn{
+    position: relative;
+    left: 180px;
+    margin-top: 30px;
+    border: 1px solid transparent;
+    width: 270px;
+    height: 56px;
+    border-radius: 5px;
+    background-color: #1864FF;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 0.1;
+    font-family: sans-serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.sml{
+    color: #C7D9FF;
+    margin-top: 41.667px;
+    text-align: center;
+    font-size: .9rem;
+}
+
+.wrapper{
+    height: 100vh;
+    position: relative;
+    top: 250px;
+    padding-left: 100px;
+}
+.text{
+    color: #1864FF;
+    font-size: 35px;
+    text-align: center;
+    font-family: sans-serif;
+}
+mark{
+    background-color: #fff;
+    color: #FEA9A4;
+}
+.logo{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.slogo{
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+#lc{
+    margin-top: 120px;
+
+}
+.persons{
+    width: 70rem;
+    height: 100vh;
+    padding-left: 100px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.persons img {
+    height: 100px;
+    border-radius: 50%;
+    padding:0 70px;
+    fill:;
+}
+.persons p{
+    font-family:'Inter' ,sans-serif;
+    color: #1864FF;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.persons h4{
+    color: #1864FF;
+    text-align: center;
+    padding: 0px 5px;
+    font-weight: 700;
+    word-spacing: .5rem;
+    font-size: 1.5rem;
+}
+.role{
+    font-size: x-small;
+}
+.icons{
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.icons h3,h3{
+    text-align: center;
+    color: #1864FF;
+    font-family: 'Inter',sans-serif;
+    font-weight: 700;
+    line-height: 1.25;
+    font-size: 2.375rem;
+    margin-bottom: 20px;
+}
+.style2{
+    font-size: 2rem;
+    margin-bottom: 5px;
+    position: relative;
+    left: 110px;
+}
+.icons p,.pa{
+    color: #C7D9FF;
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 1.25rem;
+    font-size: 1em;
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 10px;
+}
+.form> h2{
+    font-weight: 700;
+    margin-top: 200px;
+}
+.f{
+    width: 300px;
+    position: relative;
+    left: 500px;
+}
+#mail{
+    width: 85%;
+    margin: 20px 0;
+    color: #709EFF;
+    border: 1px solid #1864FF;
+    border-radius: 11.5px;
+    padding: 12px 20px;
+    font-size: 16px;
+    background: transparent;
+    text-align: left;
+    line-height: 20px;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    text-transform: none;
+}
+.button{
+    color: #ffffff;
+    width: 100%;
+    border: 1px solid transparent;
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 16px;
+    background: #1864FF;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 20px;
+    border-radius: 11.5px;
+    letter-spacing: 0.1px;
+    text-transform: none;
+}
+footer{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    padding: 70px 50px;
+    text-align: center;
+    transition: fill 0.25s ease;
+    cursor: pointer;
+}
+.last p{
+    color: #709EFF;
+    word-spacing: normal;
+    text-align: left;
+    margin-top: 13px;
+    margin-bottom: 0 !important;
+    font-weight: 300;
+    line-height: 1.625;
+    font-size: 1em;
+    font-family: sans-serif;
+}
+svg{
+    display: inline;
+    border-radius: 50%;
+    height: 20px;
+}
